@@ -277,6 +277,8 @@ header{
     .clients-logos{
         display: flex;
         justify-content: space-between;
+        height: 98px;
+        align-items: center;
         .clients-logo--element{
             height: 48px;
         }
