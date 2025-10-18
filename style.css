@@ -774,6 +774,7 @@ footer{
         display: flex;
         flex-direction: row;
         .footer-companyinfo{
+            width: 350px;
             display: flex;
             flex-direction: column;
             gap: 40px;
