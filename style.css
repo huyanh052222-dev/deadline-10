@@ -284,7 +284,6 @@ header{
 }
 /* Community section */
 .home-community{
-    padding: 0px 144px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -311,92 +310,93 @@ header{
             line-height: 24px;
         }
     }
+    /* community-frame */
+    .community-frame{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 42px;
+        .com-frame-box{
+            height: 212px;
+            color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: #ABBED133 0px 2px 4px;
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            .com-frame-member{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .frame-icon{
+                    text-align: center;
+                    height: 56px;
+                }
+                .frame-member-text{
+                    color: #4D4D4D;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36px;
+                    width: 267px;
+                    text-align: center;
+                }
+                .spec-text{
+                    width: 231px;
+                }
+            }
+            .com-frame-text{
+                width: 251px;
+                text-align: center;
+                color: #717171;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        .com-frame-box-spec{
+            /* Special height */
+            height: 232px;
+            color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: #ABBED133 0px 2px 4px;
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            .com-frame-member{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .frame-icon{
+                    text-align: center;
+                    height: 56px;
+                }
+                .frame-member-text{
+                    color: #4D4D4D;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36px;
+                    width: 267px;
+                    text-align: center;
+                }
+            }
+            .com-frame-text{
+                width: 240px;
+                color: #717171;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+    }
 }
-/* community-frame */
-.community-frame{
+.community-frame-container{
     padding: 0px 144px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 42px;
-    .com-frame-box{
-        height: 212px;
-        color: #FFFFFF;
-        border-radius: 8px;
-        box-shadow: #ABBED133 0px 2px 4px;
-        padding: 24px 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        .com-frame-member{
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            .frame-icon{
-                text-align: center;
-                height: 56px;
-            }
-            .frame-member-text{
-                color: #4D4D4D;
-                font-weight: 700;
-                font-size: 28px;
-                line-height: 36px;
-                width: 267px;
-                text-align: center;
-            }
-            .spec-text{
-                width: 231px;
-            }
-        }
-        .com-frame-text{
-            width: 251px;
-            text-align: center;
-            color: #717171;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-        }
-    }
-    .com-frame-box-spec{
-        /* Special height */
-        height: 232px;
-        color: #FFFFFF;
-        border-radius: 8px;
-        box-shadow: #ABBED133 0px 2px 4px;
-        padding: 24px 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        .com-frame-member{
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            .frame-icon{
-                text-align: center;
-                height: 56px;
-            }
-            .frame-member-text{
-                color: #4D4D4D;
-                font-weight: 700;
-                font-size: 28px;
-                line-height: 36px;
-                width: 267px;
-                text-align: center;
-            }
-        }
-        .com-frame-text{
-            width: 240px;
-            color: #717171;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-        }
-    }
 }
-
 /* body page */
 .body-page{
     display: flex;
