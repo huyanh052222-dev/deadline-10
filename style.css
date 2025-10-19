@@ -858,10 +858,12 @@ footer{
     }
 }
 .send-email{
-    min-width: 231px;
+    /* min-width: 231px; */
+    width: 231px;
     display: flex;
-    flex-direction: row;
-    gap: 87px;
+    /* flex-direction: row; */
+    /* gap: 87px; */
+    justify-content: space-between;
     background-color: #525b60;
     padding: 9px 12px;
     border-radius: 8px;
@@ -870,8 +872,8 @@ footer{
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        height: 20px;
-        width: 128px;
+        /* height: 20px; */
+        /* width: 126px; */
     }
     .send-img{
         height: 18px;
